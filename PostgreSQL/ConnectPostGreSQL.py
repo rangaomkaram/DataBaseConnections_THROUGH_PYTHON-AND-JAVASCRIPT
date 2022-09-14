@@ -20,14 +20,20 @@ try:
 
     cur2 = conn.cursor()
     
-    cur2.execute('SELECT * FROM public."Sales_Store" LIMIT 100')
+    #cur2.execute('SELECT * FROM public."Sales_Store" LIMIT 100')
 
 
 
-    for record in cur2.fetchall():
-        print(record)
+    #for record in cur2.fetchall():
+        #print(record)
 
-    cur2.execute('SELECT DISTINCT "Age_Group" FROM public."Sales_Store"')
+    #cur2.execute('SELECT DISTINCT "Age_Group" FROM public."Sales_Store"')
+
+    cur2.execute("select COLUMN_NAME from information_schema.columns\
+            where table_name='Sales_Store'")
+
+    
+
 
     for rec in cur2.fetchall():
         print(rec)
