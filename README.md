@@ -8,7 +8,7 @@ Using Python connect the database and do operations and Manipulating.
 
 ## Using Javascript means
  # MERN stack
-  - Using Node.js, Express, Mongoose to connect the different Databases - specially MongoDB, MySQL
+  - Using Node.js, Express, and Mongoose to connect the different Databases - especially MongoDB, MySQL
 
 
 
