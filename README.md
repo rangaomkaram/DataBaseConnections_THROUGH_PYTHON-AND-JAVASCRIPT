@@ -1,7 +1,14 @@
-# This Repo is for connecting the Various DataBases Using Python
+# This Repo is for connecting the Various DataBases Using Python and JavaScript
    
    ## PostgreSQL
    ## MySQL
-   ## MONGODB
+   ## MongoDB
 
-Using python connect the database and do operations and Manpulating.
+Using Python connect the database and do operations and Manipulating.
+
+## Using Javascript means
+ # MERN stack
+  - Using Node.js, Express, Mongoose to connect the different Databases - specially MongoDB, MySQL
+
+
+
